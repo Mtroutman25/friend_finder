@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 
 
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routing/apiRoutes")(app);
+require("./routing/htmlRoutes")(app);
 
 
 app.listen(PORT, function() {
